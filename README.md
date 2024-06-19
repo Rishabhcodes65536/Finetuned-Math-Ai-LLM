@@ -9,23 +9,23 @@ This repository contains code for fine-tuning our favourite SOT i.e.Meta LLaMA-3
 - **Inference**: Code to generate responses from the fine-tuned model.
 
 
-##Setup
+## Setup
 ```bash
 git clone https://github.com/Rishabhcodes65536/Finetuned-Math-Ai-LLM.git
 ```
 
-##Usage
+## Usage
 
-###Training
+### Training
 1.Open the Colab notebook and run the cells to mount Google Drive.
 2.Run the training script.
 3.Checkpoints will be periodically saved to your Google Drive.
 
-###Inference
+### Inference
 1.Load the best model checkpoint from Google Drive.
 2.Use the provided inference script to generate responses.
 
-##Acknowledgements
+## Acknowledgements
 This repository is inspired by the work of [Unsloth peft for Meta Llama-3-8b](https://github.com/unslothai/unsloth)
 [Hugging Face](https://huggingface.co) for fetching base model as well as storing the fine-tuned model
 [Google Colab](https://colab.research.google.com) for Your Free Computing Units for Training as well as Inference
